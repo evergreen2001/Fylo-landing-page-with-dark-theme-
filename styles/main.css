@@ -7,6 +7,14 @@ body {
 background-color: hsl(218, 28%, 13%);
   width: 100%;
   margin: 0;
+  color:white;
+}
+
+
+p{
+  font-size:14px;
+  
+  
 }
 
 
@@ -21,7 +29,9 @@ h2 {
   width: 70%;
 }
 
-
+.intro img{
+  width:50%;
+}
 .content1 {
   width: 100%;
   background-image: url(../images/bg-hero-desktop.svg);
@@ -35,28 +45,35 @@ h1 {
   font-weight: 700;
   /* font-size:2rem */
 }
+.intro{
+  /* background-color:hsl(217, 28%, 15%) */
+}
+
 
 .hero-area {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.hero-btn {
+.intro-btn {
   outline: none;
   border-radius: 50px;
-
-  height: auto;
-  background-color: hsl(322, 100%, 66%);
+  background-color:  hsl(198, 60%, 50%);
   color: #fff;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   width: 70%;
-  height: 15%;
-}
-p {
-  font-size: 18px;
+  height: 100%; 
+  padding:15px;
 }
 
+.content2{
+  margin-top:200px;
+}
+
+.content2 img{
+  /* width:20%; */
+}
 .col-image {
   margin-top: 5rem;
 }
