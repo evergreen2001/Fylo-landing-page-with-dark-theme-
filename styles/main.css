@@ -89,10 +89,12 @@ h1 {
 .content4 .row{
   position: relative;
   top:-30px;
+ 
 }
 .content4 .quote img{
   width:50%;
   border-radius: 50%;
+  height:100%;
 }
 .content4 .quote{
 background-color: hsl(219, 30%, 18%);
@@ -162,7 +164,7 @@ padding:25px
 }
 
 footer {
-  background-color: hsl(192, 100%, 9%);
+  background-color:hsl(216, 53%, 9%);
   color: #fff;
   font-size: 14px;
   width: 100%;
