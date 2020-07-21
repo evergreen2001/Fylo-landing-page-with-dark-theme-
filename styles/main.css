@@ -5,6 +5,7 @@
 
 body {
   background-color: hsl(218, 28%, 13%);
+  
   width: 100%;
   margin: 0;
   color: white;
@@ -42,7 +43,9 @@ h1 {
   /* font-size:2rem */
 }
 .intro {
-  /* background-color:hsl(217, 28%, 15%) */
+  background-color:hsl(217, 28%, 15%)
+  background-image:url(../images/bg-curvy-desktop.svg)
+  
 }
 
 .hero-area {
@@ -62,13 +65,15 @@ h1 {
   padding: 15px;
 }
 
+.mountain{
+}
 .content2,
 .content3 {
   margin-top: 200px;
 }
 
 .content2 img {
-  width: 30%;
+  /* width: 20%; */
   height: 40%;
 }
 
@@ -150,6 +155,11 @@ padding:25px
     width: 100%;
     font-size: 9px;
   }
+  footer ul , .details {
+    list-style-type: none;
+ margin:0;
+    padding-top:0px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -171,9 +181,10 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 
-footer ul {
+footer ul , .details {
   list-style-type: none;
   margin: 0;
+  padding-top:80px;
 }
 footer li {
   margin-top: 10px;
