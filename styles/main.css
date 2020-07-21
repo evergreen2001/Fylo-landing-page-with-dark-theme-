@@ -10,7 +10,7 @@ body {
   color: white;
 }
 
-p {
+p,span {
   font-size: 14px;
 }
 
@@ -89,6 +89,10 @@ h1 {
 .content4 .row{
   position: relative;
   top:-30px;
+}
+.content4 .quote img{
+  width:20%;
+  border-radius: 50%;
 }
 .content4 .quote{
 background-color: hsl(219, 30%, 18%);
