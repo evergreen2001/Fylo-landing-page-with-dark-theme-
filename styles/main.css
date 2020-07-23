@@ -43,8 +43,9 @@ h1 {
   /* font-size:2rem */
 }
 .intro {
-  background-color:hsl(217, 28%, 15%)
-  background-image:url(../images/bg-curvy-desktop.svg)
+ 
+  background-image:url(../images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
   
 }
 
